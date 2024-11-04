@@ -1,0 +1,10 @@
+# c++的omp框架
+使用：在for循环前一行加上#pragma parallel for可以开启多个线程同时执行for循环。
+优点：加快程序执行速度。
+缺点：数据发生 写后读冲突 时，会发生数据计算错误，需要进行额外的数据处理。
+
+# c++的多线程库
+Boost.threadpool库
+Boost.process库
+标准库的thread库，mutex库，conditional库，future库
+ 
