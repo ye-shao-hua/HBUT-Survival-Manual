@@ -1,0 +1,9 @@
+# tiny_dnn
+备注：c++的神经网络库，编译时需要开启多线程和SSE、AVX指令集加速
+
+# KAN
+备注：python的库，2024年6月新出的。可以获得连接层的中间图像，方便对数据进行函数拟合。
+
+# Tensorflow&torch
+备注：两种python库，torch简单，tensorflow控制粒度精细。
+ 
